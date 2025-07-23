@@ -16,26 +16,28 @@ PASSO A PASSO PARA EXECUÇÃO:
 1. Abra o terminal na pasta onde estão os arquivos.
 2. Crie e ative um ambiente virtual:
 
-   - Windows:
-     
-       python -m venv venv
-     
-       venv\Scripts\activate
+## Windows:
+```bash
+   python -m venv venv
+   venv\Scripts\activate
+```
 
-   - macOS / Linux:
-     
-       python3 -m venv venv
-     
-       source venv/bin/activate
+
+## macOS / Linux:
+```bash
+   python3 -m venv venv     
+   source venv/bin/activate
+```
 
 3. Instale as dependências:
-   
-       pip install -r requirements.txt
+```bash
+   pip install -r requirements.txt
+```bash
 
 4. Execute o script:
-   
-       python app.py
-
+```bash   
+   python app.py
+```
 ----------------------------------------
 RESULTADO:
 ----------------------------------------
