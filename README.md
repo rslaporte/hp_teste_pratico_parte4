@@ -1,6 +1,6 @@
-====================================================
-  CONSULTA DE CLIMA - OPEN-METEO (últimos 7 dias)
-====================================================
+----------------------------------------
+# CONSULTA DE CLIMA - OPEN-METEO (últimos 7 dias)
+----------------------------------------
 
 Este projeto faz parte da resolução da parte 4 do teste da House Performance. O script em Python consulta a API pública Open-Meteo e exporta alguns dados meteorológicos dos últimos 7 dias para um arquivo Excel (.xlsx) local.
 
