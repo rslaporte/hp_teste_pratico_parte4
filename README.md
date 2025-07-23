@@ -29,9 +29,11 @@ PASSO A PASSO PARA EXECUÇÃO:
        source venv/bin/activate
 
 3. Instale as dependências:
+   
        pip install -r requirements.txt
 
 4. Execute o script:
+   
        python app.py
 
 ----------------------------------------
