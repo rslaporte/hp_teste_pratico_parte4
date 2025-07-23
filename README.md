@@ -2,7 +2,7 @@
 # House Performance - Teste Prático Parte 4
 ----------------------------------------
 
-Este projeto faz parte da resolução da parte 4 do teste da House Performance. O script em Python consulta a API pública Open-Meteo e exporta alguns dados meteorológicos dos últimos 7 dias para um arquivo Excel (.xlsx) local. A seguir especifico as instruções para execução do mesmo.
+Este projeto faz parte da resolução da parte 4 do teste da House Performance. O script em Python consulta a API pública Open-Meteo (https://open-meteo.com/) e exporta alguns dados meteorológicos dos últimos 7 dias para um arquivo Excel (.xlsx) local. A seguir especifico as instruções para execução do mesmo.
 
 ----------------------------------------
 REQUISITOS:
