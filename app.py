@@ -70,7 +70,7 @@ for location in locations:
     df_location = OpenMeteo().get_data(**location)
     df = pd.concat([df, df_location]).reset_index(drop=True)
 
-#Salvando os dados em formato
+#Salvando os dados em formato .xlsx (planilha)
 OpenMeteo().save_data(df, 'open_meteo_data.xlsx')
 
 
