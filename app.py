@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from datetime import datetime, timedelta
 
-#Classe para gerenciar a Open-Meteo API. Esta API pode ser encontrada em https://open-meteo.com/en/docs
+#Classe para gerenciar a Open-Meteo API. A documentação da mesma pode ser encontrada em https://open-meteo.com/en/docs
 class OpenMeteo:
     def __init__(self):
         self.url = "https://archive-api.open-meteo.com/v1/archive"
