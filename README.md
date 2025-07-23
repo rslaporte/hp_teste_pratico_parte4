@@ -13,8 +13,8 @@ REQUISITOS:
 ----------------------------------------
 PASSO A PASSO PARA EXECUÇÃO:
 ----------------------------------------
-1. Abra o terminal na pasta onde estão os arquivos.
-2. Crie e ative um ambiente virtual:
+## 1. Abra o terminal na pasta onde estão os arquivos.
+## 2. Crie e ative um ambiente virtual:
 
 ## Windows:
 ```bash
@@ -29,12 +29,12 @@ PASSO A PASSO PARA EXECUÇÃO:
    source venv/bin/activate
 ```
 
-3. Instale as dependências:
+## 3. Instale as dependências:
 ```bash
    pip install -r requirements.txt
 ```
 
-4. Execute o script:
+## 4. Execute o script:
 ```bash   
    python app.py
 ```
