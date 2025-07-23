@@ -17,11 +17,13 @@ PASSO A PASSO PARA EXECUÇÃO:
 2. Crie e ative um ambiente virtual:
 
    - Windows:
+     
        python -m venv venv
      
        venv\Scripts\activate
 
    - macOS / Linux:
+     
        python3 -m venv venv
      
        source venv/bin/activate
