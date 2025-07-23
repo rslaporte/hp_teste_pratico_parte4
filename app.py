@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from datetime import datetime, timedelta
 
-#Classe para gerenciar a Open-Meteo API. A documentação da mesma pode ser encontrada em https://open-meteo.com/en/docs
+#Classe para gerenciar a Open-Meteo API. Esta API pode ser encontrada em https://open-meteo.com/en/docs
 class OpenMeteo:
     def __init__(self):
         self.url = "https://archive-api.open-meteo.com/v1/archive"
@@ -70,7 +70,7 @@ for location in locations:
     df_location = OpenMeteo().get_data(**location)
     df = pd.concat([df, df_location]).reset_index(drop=True)
 
-#Salvando os dados em formato .xlsx (planilha)
+#Salvando os dados em formato
 OpenMeteo().save_data(df, 'open_meteo_data.xlsx')
 
 
