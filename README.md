@@ -32,7 +32,7 @@ PASSO A PASSO PARA EXECUÇÃO:
 3. Instale as dependências:
 ```bash
    pip install -r requirements.txt
-```bash
+```
 
 4. Execute o script:
 ```bash   
